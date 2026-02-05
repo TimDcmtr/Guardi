@@ -17,6 +17,7 @@ module.exports = {
 			.addComponents(components);
 
 		interaction.reply({ content: 'CLIQUE ENCORE ! <@718851445406826557>', components: [row] })
+		interaction.guild.channels.cache.get('1468948025337446444').send({ content: `<@${interaction.user.id}>` })
 
 	}
 };
